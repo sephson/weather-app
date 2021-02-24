@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form id="search_form">
+      <input
+        type="search"
+        placeholder="enter city name"
+        id="search_input"
+        required
+        autocomplete="off"
+      />
+      <br />
+      <button id="search_button">Search</button>
+    </form>
+    <section id="app_container">
+        <div id="location">
+            <p>_____</p>
+        </div>
+        <div id="weather">
+            <img id="weather_image" src="004-sun.svg"  alt="">
+            <p><span id="weather_value">_____</span><span id="weather_unit">&#176C</span></p>
+        </div>
+        <div id="weather_type">
+            <p>_____</p>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
